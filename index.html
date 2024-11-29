@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{margin:0;padding:0;}
+            canvas{
+                background-color: antiquewhite;
+
+            }
+        </style>
+    </head>  
+    <body>
+        <canvas></canvas>
+
+        <script>
+            let vas=document.querySelector('canvas');
+            vas.height=window.innerHeight;
+            vas.width=window.innerWidth;
+
+            let c=vas.getContext('2d');
+
+            c.fillRect(15,36,54,120);
+            console.log(c);
+        </script>
+    </body>
+    
+</html>
